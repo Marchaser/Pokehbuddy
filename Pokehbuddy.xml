@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BBSettings>
+  <HPFactor>4</HPFactor>
+  <LevelFactor>-30</LevelFactor>
+  <AdFactor>1</AdFactor>
+  <DisFactor>1</DisFactor>
+  <Distance>300</Distance>
+  <GetRarity>4</GetRarity>
+  <BlacklistCounterLimit>5</BlacklistCounterLimit>
+  <SkipCounterLimit>5</SkipCounterLimit>
+  <DoPVP>False</DoPVP>
+  <PVPMinTime>5</PVPMinTime>
+  <PVPMaxTime>10</PVPMaxTime>
+  <MinPetsAlive>1</MinPetsAlive>
+  <BelowLevel>3</BelowLevel>
+  <AboveLevel>3</AboveLevel>
+  <UseBandagesToHeal>0</UseBandagesToHeal>
+  <UseHealSkill>1</UseHealSkill>
+  <ForfeitIfNotInteresting>False</ForfeitIfNotInteresting>
+  <UseWhiteList>True</UseWhiteList>
+  <UseBlackList>False</UseBlackList>
+  <UseRatingSystem>True</UseRatingSystem>
+  <DoPreCombatSwapping>True</DoPreCombatSwapping>
+  <CheckAllowUsageTracking>True</CheckAllowUsageTracking>
+  <AllowAutoUpdate>False</AllowAutoUpdate>
+  <AllowRoleDetect>False</AllowRoleDetect>
+  <CurrentRevision>12</CurrentRevision>
+  <LastDayChecked>338</LastDayChecked>
+  <BPSEnabled>False</BPSEnabled>
+  <DetailedLogging>False</DetailedLogging>
+  <AmHorde>True</AmHorde>
+  <Slot1SwapEnabled>False</Slot1SwapEnabled>
+  <Slot1SwapFavoriteOnly>True</Slot1SwapFavoriteOnly>
+  <Slot1TradeableOnly>True</Slot1TradeableOnly>
+  <Slot1AllowWild>True</Slot1AllowWild>
+  <Slot1SwapMinLevel>1</Slot1SwapMinLevel>
+  <Slot1SwapMaxLevel>20</Slot1SwapMaxLevel>
+  <HPFormula>petHP * HPFactor</HPFormula>
+  <AdFormula>advantage * 50 * AdFactor</AdFormula>
+  <DisFormula>disadvantage * 50 * DisFactor</DisFormula>
+  <LevelFormula>(petLevel - enemylevel) * 4 * LevelFactor</LevelFormula>
+  <PetOrder>2,3,1</PetOrder>
+  <IBSupport>False</IBSupport>
+</BBSettings>
